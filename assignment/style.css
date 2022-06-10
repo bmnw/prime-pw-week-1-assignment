@@ -5,6 +5,8 @@ body{
 /* Make the header and footer a different color from the background */
 header,footer{
     background-color: #add8ef;
+    padding: 30px;
+    margin-block-end: 10px;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1{
@@ -19,7 +21,10 @@ p{
 img{
     border-style: groove;
     border-width: 10px;
-    border-color: #800000;
+    border-color: rgb(215, 124, 5);
+    max-width: 25%;
+    max-height: auto;
+    border-radius: 8px;
 }
 /* Change the font-family of your list */
 ul{
