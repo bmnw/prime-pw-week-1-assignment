@@ -5,8 +5,10 @@ body{
 /* Make the header and footer a different color from the background */
 header,footer{
     background-color: #add8ef;
-    padding: 30px;
+    padding: 10px;
     margin-block-end: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 /* Align the h1 containing your name in the center of the header*/
 h1{
@@ -27,6 +29,6 @@ img{
     border-radius: 8px;
 }
 /* Change the font-family of your list */
-ul{
+ul,h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
