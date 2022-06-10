@@ -31,7 +31,7 @@
 
 # 8 - Why would you run the command 'git status'?
 
-        To see changes that have not been staged, to see changes that have been staged but not commited, and to confirm that you have commited recent changes. Running 'git status' will also tell you how many commits ahead of the files on GitHub your copy is.
+        To see changes that have not been staged, to see changes that have been staged but not commited, and to confirm that you have commited recent changes (that there are no lingering changes). Running 'git status' will also tell you how many commits ahead of the files on GitHub your copy is.
 
 # 9 - What does the command 'git add .' do?
 
