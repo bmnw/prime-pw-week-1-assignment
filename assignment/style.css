@@ -31,13 +31,16 @@ img{
     border-radius: 8px;
 }
 /* Change the font-family of your list */
-ul,h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 10px;
-}
 
 ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
     font-size: 20px;
-    list-style-type: none;
+    list-style-type: square;
     padding-left: 0px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
 }
