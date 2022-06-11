@@ -1,15 +1,16 @@
 /* Give your page a fun background color */
 body{
     background-color: #8fbc8f;
+    margin: 0px;
 }
 /* Make the header and footer a different color from the background */
 header,footer{
     background-color: #add8ef;
     padding: 10px;
     margin-block-end: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
+
 /* Align the h1 containing your name in the center of the header*/
 h1{
     text-align: center;
@@ -21,14 +22,22 @@ p{
 }
 /* Put a border around your image */
 img{
+    margin-left: 10px;
     border-style: groove;
     border-width: 10px;
     border-color: rgb(215, 124, 5);
-    max-width: 25%;
+    max-width: 15%;
     max-height: auto;
     border-radius: 8px;
 }
 /* Change the font-family of your list */
 ul,h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+ul{
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 0px;
 }
